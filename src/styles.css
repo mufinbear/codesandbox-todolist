@@ -1,0 +1,89 @@
+.App {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+select {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Define your dark mode styles */
+.dark-mode {
+  background-color: #1f1f1f; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+}
+
+.high {
+  background-color: #ff0000; /* Light mode background color */
+  color: #000000; /* Light mode text color */
+}
+.medium {
+  background-color: #ff7b00; /* Light mode background color */
+  color: #000000; /* Light mode text color */
+}
+.low {
+  background-color: #eeff00; /* Light mode background color */
+  color: #000000; /* Light mode text color */
+}
+
+.completed {
+  background-color: #037512; /* Change to your desired green color */
+}
+
+/* Define a class for the todo list container */
+.todo-list-container {
+  max-height: 300px; /* Set the maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrollbar when content exceeds the height */
+  padding: 10px; /* Add padding to the container */
+}
+
+/* Define a class for the todo list */
+.todo-list {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Reset padding for the list */
+  margin: 0; /* Reset margin for the list */
+}
